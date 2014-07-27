@@ -12,6 +12,10 @@
 <p><i><%= "#{name}: #{message}" %></i></p>
 <% end %>
 
+<p>
+<b>Rating:</b> <%= render_stars(5) %>
+</p>
+
 <%= yield %>
 
 </body>
